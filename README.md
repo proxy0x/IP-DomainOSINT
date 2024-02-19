@@ -86,8 +86,6 @@ If You Want to Deactivate the Virtual Environment:
 # Usage 
 - Launch the application and enter the target IP address or domain.
 
-- Optionally enable Sublist3r to enumerate subdomains.
-
 - Click the "Search" button to initiate the investigation.
 
 - View comprehensive results in the Treeview widget, including IP information, domain details, and SSL/TLS data.
