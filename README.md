@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # IP-Domain-OSINT
 
 IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed for conducting investigations and gathering information about IP addresses and domains. It provides a user-friendly graphical interface and integrates various data sources to retrieve details such as geolocation, WHOIS information, SSL/TLS details, and more.
@@ -83,7 +83,3 @@ IP/Domain OSINT utilizes Sublist3r for subdomain enumeration. For more informati
 
 #License 
 This project is licensed under the MIT License - see the LICENSE file for details.
-=======
-# IP-DomainOSINT
-IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed for conducting investigations and gathering information about IP addresses and domains. It provides a user-friendly graphical interface and integrates various data sources to retrieve details such as geolocation, WHOIS information, SSL/TLS details, and more.
->>>>>>> 298dc4279fdfa4bc402a1ee7d7f4f567e31706e7
