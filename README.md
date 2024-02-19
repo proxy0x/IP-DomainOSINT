@@ -37,7 +37,7 @@ IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed
 
 # Run the Tool
 
-- You Must Copy the Path of the .py to run. Exmaple below.
+YOU MUST COPY THE PATH OF THE .py TO RUN. Exmaple below.
 
 - python3 your/path/to/IPDomainOSINT.py
 
