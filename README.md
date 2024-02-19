@@ -18,7 +18,7 @@ IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed
 
 # Installation For Linux Users
 
-- git clone https://github.com/proxy0x/IP-DomainOSINT.git
+- git clone --recursive https://github.com/proxy0x/IP-DomainOSINT.git
 
 - cd IP-DomainOSINT
 
@@ -40,8 +40,14 @@ If You Want to Deactivate the Virtual Environment:
 
 - deactivate
 
+# Using Sublist3r
+
+- cd IP-DomainOSINT/src/Sublist3r
+
+- python sublist3r.py -d example.com
+
 # Installation for Windows Users 
-- git clone https://github.com/proxy0x/IP-DomainOSINT.git
+- git clone --recursive https://github.com/proxy0x/IP-DomainOSINT.git
 
 - cd IP-DomainOSINT
 
@@ -58,6 +64,12 @@ If You Want to Deactivate the Virtual Environment:
 If You Want to Deactivate the Virtual Environment:
 
 - deactivate
+
+# Using Sublist3r
+
+- cd IP-DomainOSINT/src/Sublist3r
+
+- python sublist3r.py -d example.com
 
 # Usage 
 - Launch the application and enter the target IP address or domain.
