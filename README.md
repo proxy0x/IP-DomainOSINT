@@ -45,6 +45,8 @@ If You Want to Deactivate the Virtual Environment:
 
 - deactivate
 
+![Screenshot 2024-02-19 165031](https://github.com/proxy0x/IP-DomainOSINT/assets/140286530/86794df4-7dc8-459b-ab64-e8992ae7a3d7)
+
 # Using Sublist3r
 
 - cd IP-DomainOSINT/src/Sublist3r
