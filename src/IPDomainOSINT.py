@@ -63,20 +63,6 @@ class IPDomainOSINT:
         self.domain_label.place(x=10, y=20)
         self.domain_entry.place(x=390, y=20)
 
-        # Sublist3r Switch
-        self.sublist3r_switch_var = tk.BooleanVar()
-
-        # Set the colors for different states (you can change the colors as per your preference)
-        self.root.tk_setPalette(background="#2E2E2E", foreground="#000000")
-        self.sublist3r_switch_style = ttk.Style()
-        self.sublist3r_switch_style.map("Green.TCheckbutton",
-                                        background=[("selected", "#6E83F6")],  # Color when switch is ON
-                                        indicator=[("selected", "#FFFFFF")])  # Color of the check mark
-
-        self.sublist3r_switch = ttk.Checkbutton(self.root, text="Use Sublist3r", variable=self.sublist3r_switch_var, style="Green.TCheckbutton")
-        self.sublist3r_switch.grid(row=4, column=1, columnspan=2, pady=10)
-        self.sublist3r_switch.place(x=560, y=20)
-
         # Place ASCII art at a specific location
         self.ascii_label.place(x=690, y=-18)
 
@@ -276,28 +262,6 @@ class IPDomainOSINT:
         except (socket.gaierror, IndexError):
             return "N/A"
 
-    def enumerate_subdomains(self, domain):
-        try:
-            if self.sublist3r_switch_var.get():
-                # Get the directory where the script is located
-                script_directory = os.path.dirname(os.path.abspath(__file__))
-
-                # Relative path to sublist3r.py
-                sublist3r_path = os.path.join(script_directory, "src", "Sublist3r", "sublist3r.py")
-
-                # Run sublist3r as a subprocess
-                command = [sys.executable, sublist3r_path, "-d", domain]
-                result = subprocess.run(command, capture_output=True, text=True, check=True)
-
-                # Extract and return subdomains
-                subdomains = result.stdout.split('\n')
-                return subdomains
-            else:
-                return []
-        except subprocess.CalledProcessError as e:
-            print(f"Error running sublist3r: {e}")
-            return []
-
     def on_search(self):
         ip_address = self.ip_entry.get()
         domain = self.domain_entry.get()
@@ -319,21 +283,14 @@ class IPDomainOSINT:
             self.display_loading_animation()
             self.root.after(1000, lambda: self.display_result(self.get_whois_info(domain)))
 
-            # Enumerate subdomains using Sublist3r
-            subdomains = self.enumerate_subdomains(domain)
-            self.display_subdomains(subdomains)
         else:
             messagebox.showwarning("Invalid Input", "Please enter a valid IP address or domain.")
 
     def display_loading_animation(self):
         loading_label = ttk.Label(self.root, text="Searching...", font=("Helvetica", 12, "bold"), foreground="#FFFFFF", background="#2E2E2E")
-        loading_label.place(x=350, y=85)
+        loading_label.place(x=320, y=85)
         self.root.update()
         self.root.after(2000, lambda: loading_label.destroy())  # Adjust the time as needed
-
-    def display_subdomains(self, subdomains):
-        for subdomain in subdomains:
-            self.tree.insert("", "end", values=("Subdomain", subdomain))
 
     def is_valid_ip(self, ip):
         # Use regex to check if the entered string is a valid IPv4 or IPv6 address
