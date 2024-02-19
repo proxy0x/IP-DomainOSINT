@@ -18,9 +18,9 @@ Graphical User Interface (GUI): User-friendly interface with a sleek design for 
 
 # Installation For Linux Users
 
-git clone https://github.com/proxy0x/IP-Domain-OSINT.git
+git clone git clone https://github.com/proxy0x/IP-DomainOSINT.git
 
-cd IP-Domain-OSINT
+cd IP-DomainOSINT
 
 python3 -m venv venv
 
@@ -39,9 +39,9 @@ Deactivate the Virtual Environment:
 deactivate
 
 # Installation for Windows Users 
-git clone https://github.com/proxy0x/IP-Domain-OSINT.git
+git clone git clone https://github.com/proxy0x/IP-DomainOSINT.git
 
-cd IP-Domain-OSINT
+cd IP-DomainOSINT
 
 python3 -m venv venv
 
