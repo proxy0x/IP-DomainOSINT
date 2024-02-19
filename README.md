@@ -59,7 +59,7 @@ If You Want to Deactivate the Virtual Environment:
 
 - deactivate
 
-#Usage 
+# Usage 
 - Launch the application and enter the target IP address or domain.
 
 - Optionally enable Sublist3r to enumerate subdomains.
