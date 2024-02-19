@@ -62,8 +62,9 @@ If You Want to Deactivate the Virtual Environment:
 - cd IP-DomainOSINT
 
 - python3 -m venv venv
-
-- source venv/Scripts/activate
+  
+- source venv/Scripts/activate (Git Bash) (Powershell}
+- venv\Scripts\activate (cmd & Powershell)
 
 - pip install -r requirements.txt
 
