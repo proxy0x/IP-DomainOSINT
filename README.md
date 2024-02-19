@@ -18,7 +18,7 @@ IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed
 
 # Installation For Linux Users
 
-- git clone git clone https://github.com/proxy0x/IP-DomainOSINT.git
+- git clone https://github.com/proxy0x/IP-DomainOSINT.git
 
 - cd IP-DomainOSINT
 
