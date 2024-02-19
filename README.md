@@ -72,7 +72,7 @@ If You Want to Deactivate the Virtual Environment:
 
 YOU MUST COPY THE PATH OF THE .py TO RUN. Exmaple below.
 
-- python3 your/path/to/IPDomainOSINT.py
+- python your/path/to/IPDomainOSINT.py
 
 If You Want to Deactivate the Virtual Environment:
 
