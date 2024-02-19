@@ -30,7 +30,7 @@ IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed
 
 - pip install -r requirements.txt
 
-Run the Tool:
+# Run the Tool
 
 - You Must Copy the Path of the .py to run. Exmaple below.
 
@@ -51,7 +51,7 @@ If You Want to Deactivate the Virtual Environment:
 
 - pip install -r requirements.txt
 
-- Run the Tool:
+# Run the Tool
 
 - python3 IPDomainOSINT.py
 
