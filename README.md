@@ -41,7 +41,7 @@ If You Want to Deactivate the Virtual Environment:
 - deactivate
 
 # Installation for Windows Users 
-- git clone git clone https://github.com/proxy0x/IP-DomainOSINT.git
+- git clone https://github.com/proxy0x/IP-DomainOSINT.git
 
 - cd IP-DomainOSINT
 
