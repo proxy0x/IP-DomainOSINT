@@ -283,7 +283,7 @@ class IPDomainOSINT:
                 script_directory = os.path.dirname(os.path.abspath(__file__))
 
                 # Relative path to sublist3r.py
-                sublist3r_path = os.path.join(script_directory, "Sublist3r", "sublist3r.py")
+                sublist3r_path = os.path.join(script_directory, "src", "Sublist3r", "sublist3r.py")
 
                 # Run sublist3r as a subprocess
                 command = [sys.executable, sublist3r_path, "-d", domain]
