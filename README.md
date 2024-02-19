@@ -81,6 +81,5 @@ IPWhois
 # Acknowledgments 
 IP/Domain OSINT utilizes Sublist3r for subdomain enumeration. For more information, refer to Sublist3r GitHub repository.
 
-#License 
-
+# License 
 This project is licensed under the MIT License - see the LICENSE file for details.
