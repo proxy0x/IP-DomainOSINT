@@ -79,7 +79,7 @@ If You Want to Deactivate the Virtual Environment:
 
 # Using Sublist3r
 
-- cd IP-DomainOSINT/src/Sublist3r
+- cd src/Sublist3r
 
 - python sublist3r.py -d example.com
 
