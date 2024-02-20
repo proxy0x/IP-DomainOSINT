@@ -23,35 +23,35 @@ IP/Domain OSINT is a Python-based open-source intelligence (OSINT) tool designed
 
 - Extract the Zip
 
-- git clone --recursive https://github.com/proxy0x/IP-DomainOSINT.git
+- ```git clone --recursive https://github.com/proxy0x/IP-DomainOSINT.git```
 
-- cd IP-DomainOSINT
+- ```cd IP-DomainOSINT```
 
-- python3 -m venv venv
+- ```python3 -m venv venv```
 
-- source venv/bin/activate
+- ```source venv/bin/activate```
 
-- sudo apt-get install python3-tk
+- ```sudo apt-get install python3-tk```
 
-- pip install -r requirements.txt
+- ```pip install -r requirements.txt```
 
 # Run the Tool
 
 YOU MUST COPY THE PATH OF THE .py TO RUN. Exmaple below.
 
-- python3 your/path/to/IPDomainOSINT.py
+- ```python3 your/path/to/IPDomainOSINT.py```
 
 If You Want to Deactivate the Virtual Environment:
 
-- deactivate
+- ```deactivate```
 
 ![Screenshot 2024-02-19 165031](https://github.com/proxy0x/IP-DomainOSINT/assets/140286530/86794df4-7dc8-459b-ab64-e8992ae7a3d7)
 
 # Using Sublist3r
 
-- cd IP-DomainOSINT/src/Sublist3r
+- ```cd IP-DomainOSINT/src/Sublist3r```
 
-- python sublist3r.py -d example.com
+- ```python sublist3r.py -d example.com```
 
 # Installation for Windows Users 
 
@@ -59,34 +59,34 @@ If You Want to Deactivate the Virtual Environment:
 
 - Extract the Zip
 
-- git clone --recursive https://github.com/proxy0x/IP-DomainOSINT.git
+- ```git clone --recursive https://github.com/proxy0x/IP-DomainOSINT.git```
 
-- cd IP-DomainOSINT
+- ```cd IP-DomainOSINT```
 
-- python3 -m venv venv
+- ```python3 -m venv venv```
   
-- source venv/Scripts/activate (Git Bash) (Powershell}
-- venv\Scripts\activate (cmd & Powershell)
+- ```source venv/Scripts/activate``` (Git Bash)
+- ```venv\Scripts\activate``` (cmd & Powershell)
 
-- pip install -r requirements.txt
+- ```pip install -r requirements.txt```
 
 # Run the Tool
 
 YOU MUST COPY THE PATH OF THE .py TO RUN. Exmaple below.
 
-- python your/path/to/IPDomainOSINT.py
+- ```python your/path/to/IPDomainOSINT.py```
 
 If You Want to Deactivate the Virtual Environment:
 
-- deactivate
+- ```deactivate```
 
 ![Screenshot 2024-02-19 165405](https://github.com/proxy0x/IP-DomainOSINT/assets/140286530/f2d55da1-6925-466d-be03-728e02a8727d)
 
 # Using Sublist3r
 
-- cd src/Sublist3r
+- ```cd src/Sublist3r```
 
-- python sublist3r.py -d example.com
+- ```python sublist3r.py -d example.com```
 
 # Usage 
 - Launch the application and enter the target IP address or domain.
